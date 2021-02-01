@@ -1,0 +1,1 @@
+export const ekle=(a,b)=>a+b;
