@@ -1,0 +1,37 @@
+            <svg
+              class="triangle-side-back position-absolute inverse" 
+              viewBox="0 0 764.94 1006.05"
+              style="height: 100%; z-index: 10; top: -57px"
+            >
+              <defs>
+                <linearGradient
+                  id="triangle-gradient"
+                  x1="1404.62"
+                  y1="542.5"
+                  x2="1920"
+                  y2="542.5"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop
+                    offset="0"
+                    stop-color="#fee28a"
+                    stop-opacity="0.18"
+                  ></stop>
+                  <stop
+                    offset="0.5"
+                    stop-color="#fff5d8"
+                    stop-opacity="0.2"
+                  ></stop>
+                  <stop
+                    offset="1"
+                    stop-color="#fee28a"
+                    stop-opacity="0.05"
+                  ></stop>
+                </linearGradient>
+              </defs>
+              <path
+                d="M1919.5,148.59c-88.72-48-227.44-102-394-84.08-105.41,11.33-220.77,23.73-298,134.29-61.94,88.67-100.45,242.05-49,348,76.46,157.44,293,89.42,370,269.74,18,42.07,24.89,89.6,69,146,15.64,20,56.29,70.59,125,93.42,83.58,27.77,154.16-3.66,177-15.18Z"
+                transform="translate(-1154.56 -61)"
+                style="fill: url(#triangle-gradient)"
+              ></path>
+            </svg>

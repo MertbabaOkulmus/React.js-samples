@@ -1,0 +1,10 @@
+        <svg
+              viewBox="0 0 1920 400"
+              class="hiro-bottom-svg d-none d-sm-block"
+            >
+              <path
+                d="M0,400H1920V156L535.83,323a334.6,334.6,0,0,1-261.31-81.11L0,0Z"
+                transform="translate(0 0)"
+                style=" fill: #F8F8F8; "
+              ></path>
+            </svg>

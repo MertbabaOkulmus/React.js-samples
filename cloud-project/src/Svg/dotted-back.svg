@@ -1,0 +1,111 @@
+<svg id="Layer_01" data-name="Layer 01"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 348.5 436">
+    <defs>
+        <style>.dotted01-1{fill:#00bf6e;}.dotted01-2{fill:#0088fe;}.dotted01-3{fill:#e85998;opacity:0.75;}.dotted01-10,.dotted01-11,.dotted01-12,.dotted01-13,.dotted01-14,.dotted01-15,.dotted01-16,.dotted01-17,.dotted01-18,.dotted01-19,.dotted01-20,.dotted01-21,.dotted01-22,.dotted01-23,.dotted01-24,.dotted01-25,.dotted01-26,.dotted01-27,.dotted01-28,.dotted01-29,.dotted01-30,.dotted01-31,.dotted01-32,.dotted01-33,.dotted01-34,.dotted01-35,.dotted01-36,.dotted01-37,.dotted01-38,.dotted01-39,.dotted01-4,.dotted01-40,.dotted01-41,.dotted01-5,.dotted01-6,.dotted01-7,.dotted01-8,.dotted01-9{fill:none;stroke-miterlimit:10;}.dotted01-4,.dotted01-5{stroke:url(#linear-gradient);}.dotted01-11,.dotted01-13,.dotted01-15,.dotted01-17,.dotted01-19,.dotted01-21,.dotted01-23,.dotted01-25,.dotted01-27,.dotted01-29,.dotted01-31,.dotted01-33,.dotted01-35,.dotted01-37,.dotted01-39,.dotted01-41,.dotted01-5,.dotted01-7,.dotted01-9{stroke-dasharray:1.01 15.13;}.dotted01-6,.dotted01-7{stroke:url(#linear-gradient-5);}.dotted01-8,.dotted01-9{stroke:url(#linear-gradient-9);}.dotted01-10,.dotted01-11{stroke:url(#linear-gradient-13);}.dotted01-12,.dotted01-13{stroke:url(#linear-gradient-17);}.dotted01-14,.dotted01-15{stroke:url(#linear-gradient-21);}.dotted01-16,.dotted01-17{stroke:url(#linear-gradient-25);}.dotted01-18,.dotted01-19{stroke:url(#linear-gradient-29);}.dotted01-20,.dotted01-21{stroke:url(#linear-gradient-33);}.dotted01-22,.dotted01-23{stroke:url(#linear-gradient-37);}.dotted01-24,.dotted01-25{stroke:url(#linear-gradient-41);}.dotted01-26,.dotted01-27{stroke:url(#linear-gradient-45);}.dotted01-28,.dotted01-29{stroke:url(#linear-gradient-49);}.dotted01-30,.dotted01-31{stroke:url(#linear-gradient-53);}.dotted01-32,.dotted01-33{stroke:url(#linear-gradient-57);}.dotted01-34,.dotted01-35{stroke:url(#linear-gradient-61);}.dotted01-36,.dotted01-37{stroke:url(#linear-gradient-65);}.dotted01-38,.dotted01-39{stroke:url(#linear-gradient-69);}.dotted01-40,.dotted01-41{stroke:url(#linear-gradient-73);}</style>
+        <linearGradient id="linear-gradient" x1="9.5" y1="73.5" x2="348.5" y2="73.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#4f4f4f"></stop>
+            <stop offset="0.64" stop-color="#4f4f4f" stop-opacity="0.32"></stop>
+            <stop offset="1" stop-color="#4f4f4f" stop-opacity="0"></stop>
+        </linearGradient>
+        <linearGradient id="linear-gradient-5" y1="93.5" y2="93.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-9" y1="113.5" y2="113.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-13" y1="133.5" y2="133.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-17" y1="173.5" y2="173.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-21" y1="153.5" y2="153.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-25" y1="193.5" y2="193.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-29" y1="253.5" y2="253.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-33" y1="313.5" y2="313.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-37" y1="273.5" y2="273.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-41" y1="213.5" y2="213.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-45" y1="333.5" y2="333.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-49" y1="353.5" y2="353.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-53" y1="373.5" y2="373.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-57" y1="393.5" y2="393.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-61" y1="413.5" y2="413.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-65" y1="232.5" y2="232.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-69" y1="293.5" y2="293.5" xlink:href="#linear-gradient"></linearGradient>
+        <linearGradient id="linear-gradient-73" y1="53.5" y2="53.5" xlink:href="#linear-gradient"></linearGradient>
+    </defs>
+    <circle class="dotted01-1" cx="52" cy="6" r="6"></circle>
+    <circle class="dotted01-2" cx="139" cy="430" r="6"></circle>
+    <circle class="dotted01-3" cx="10" cy="51" r="10"></circle>
+    <g id="Layer_2" data-name="Layer 2" style="opacity:0.5">
+        <polyline class="dotted01-4" points="10 73.5 9.5 73.5 10 73.5"></polyline>
+        <line class="dotted01-5" x1="25.13" y1="73.5" x2="340.43" y2="73.5"></line>
+        <polyline class="dotted01-4" points="348 73.5 348.5 73.5 348 73.5"></polyline>
+        <line class="dotted01-5" x1="332.87" y1="73.5" x2="17.57" y2="73.5"></line>
+        <polyline class="dotted01-6" points="10 93.5 9.5 93.5 10 93.5"></polyline>
+        <line class="dotted01-7" x1="25.13" y1="93.5" x2="340.43" y2="93.5"></line>
+        <polyline class="dotted01-6" points="348 93.5 348.5 93.5 348 93.5"></polyline>
+        <line class="dotted01-7" x1="332.87" y1="93.5" x2="17.57" y2="93.5"></line>
+        <polyline class="dotted01-8" points="10 113.5 9.5 113.5 10 113.5"></polyline>
+        <line class="dotted01-9" x1="25.13" y1="113.5" x2="340.43" y2="113.5"></line>
+        <polyline class="dotted01-8" points="348 113.5 348.5 113.5 348 113.5"></polyline>
+        <line class="dotted01-9" x1="332.87" y1="113.5" x2="17.57" y2="113.5"></line>
+        <polyline class="dotted01-10" points="10 133.5 9.5 133.5 10 133.5"></polyline>
+        <line class="dotted01-11" x1="25.13" y1="133.5" x2="340.43" y2="133.5"></line>
+        <polyline class="dotted01-10" points="348 133.5 348.5 133.5 348 133.5"></polyline>
+        <line class="dotted01-11" x1="332.87" y1="133.5" x2="17.57" y2="133.5"></line>
+        <polyline class="dotted01-12" points="10 173.5 9.5 173.5 10 173.5"></polyline>
+        <line class="dotted01-13" x1="25.13" y1="173.5" x2="340.43" y2="173.5"></line>
+        <polyline class="dotted01-12" points="348 173.5 348.5 173.5 348 173.5"></polyline>
+        <line class="dotted01-13" x1="332.87" y1="173.5" x2="17.57" y2="173.5"></line>
+        <polyline class="dotted01-14" points="10 153.5 9.5 153.5 10 153.5"></polyline>
+        <line class="dotted01-15" x1="25.13" y1="153.5" x2="340.43" y2="153.5"></line>
+        <polyline class="dotted01-14" points="348 153.5 348.5 153.5 348 153.5"></polyline>
+        <line class="dotted01-15" x1="332.87" y1="153.5" x2="17.57" y2="153.5"></line>
+        <polyline class="dotted01-16" points="10 193.5 9.5 193.5 10 193.5"></polyline>
+        <line class="dotted01-17" x1="25.13" y1="193.5" x2="340.43" y2="193.5"></line>
+        <polyline class="dotted01-16" points="348 193.5 348.5 193.5 348 193.5"></polyline>
+        <line class="dotted01-17" x1="332.87" y1="193.5" x2="17.57" y2="193.5"></line>
+        <polyline class="dotted01-18" points="10 253.5 9.5 253.5 10 253.5"></polyline>
+        <line class="dotted01-19" x1="25.13" y1="253.5" x2="340.43" y2="253.5"></line>
+        <polyline class="dotted01-18" points="348 253.5 348.5 253.5 348 253.5"></polyline>
+        <line class="dotted01-19" x1="332.87" y1="253.5" x2="17.57" y2="253.5"></line>
+        <polyline class="dotted01-20" points="10 313.5 9.5 313.5 10 313.5"></polyline>
+        <line class="dotted01-21" x1="25.13" y1="313.5" x2="340.43" y2="313.5"></line>
+        <polyline class="dotted01-20" points="348 313.5 348.5 313.5 348 313.5"></polyline>
+        <line class="dotted01-21" x1="332.87" y1="313.5" x2="17.57" y2="313.5"></line>
+        <polyline class="dotted01-22" points="10 273.5 9.5 273.5 10 273.5"></polyline>
+        <line class="dotted01-23" x1="25.13" y1="273.5" x2="340.43" y2="273.5"></line>
+        <polyline class="dotted01-22" points="348 273.5 348.5 273.5 348 273.5"></polyline>
+        <line class="dotted01-23" x1="332.87" y1="273.5" x2="17.57" y2="273.5"></line>
+        <polyline class="dotted01-24" points="10 213.5 9.5 213.5 10 213.5"></polyline>
+        <line class="dotted01-25" x1="25.13" y1="213.5" x2="340.43" y2="213.5"></line>
+        <polyline class="dotted01-24" points="348 213.5 348.5 213.5 348 213.5"></polyline>
+        <line class="dotted01-25" x1="332.87" y1="213.5" x2="17.57" y2="213.5"></line>
+        <polyline class="dotted01-26" points="10 333.5 9.5 333.5 10 333.5"></polyline>
+        <line class="dotted01-27" x1="25.13" y1="333.5" x2="340.43" y2="333.5"></line>
+        <polyline class="dotted01-26" points="348 333.5 348.5 333.5 348 333.5"></polyline>
+        <line class="dotted01-27" x1="332.87" y1="333.5" x2="17.57" y2="333.5"></line>
+        <polyline class="dotted01-28" points="10 353.5 9.5 353.5 10 353.5"></polyline>
+        <line class="dotted01-29" x1="25.13" y1="353.5" x2="340.43" y2="353.5"></line>
+        <polyline class="dotted01-28" points="348 353.5 348.5 353.5 348 353.5"></polyline>
+        <line class="dotted01-29" x1="332.87" y1="353.5" x2="17.57" y2="353.5"></line>
+        <polyline class="dotted01-30" points="10 373.5 9.5 373.5 10 373.5"></polyline>
+        <line class="dotted01-31" x1="25.13" y1="373.5" x2="340.43" y2="373.5"></line>
+        <polyline class="dotted01-30" points="348 373.5 348.5 373.5 348 373.5"></polyline>
+        <line class="dotted01-31" x1="332.87" y1="373.5" x2="17.57" y2="373.5"></line>
+        <polyline class="dotted01-32" points="10 393.5 9.5 393.5 10 393.5"></polyline>
+        <line class="dotted01-33" x1="25.13" y1="393.5" x2="340.43" y2="393.5"></line>
+        <polyline class="dotted01-32" points="348 393.5 348.5 393.5 348 393.5"></polyline>
+        <line class="dotted01-33" x1="332.87" y1="393.5" x2="17.57" y2="393.5"></line>
+        <polyline class="dotted01-34" points="10 413.5 9.5 413.5 10 413.5"></polyline>
+        <line class="dotted01-35" x1="25.13" y1="413.5" x2="340.43" y2="413.5"></line>
+        <polyline class="dotted01-34" points="348 413.5 348.5 413.5 348 413.5"></polyline>
+        <line class="dotted01-35" x1="332.87" y1="413.5" x2="17.57" y2="413.5"></line>
+        <polyline class="dotted01-36" points="10 232.5 9.5 232.5 10 232.5"></polyline>
+        <line class="dotted01-37" x1="25.13" y1="232.5" x2="340.43" y2="232.5"></line>
+        <polyline class="dotted01-36" points="348 232.5 348.5 232.5 348 232.5"></polyline>
+        <line class="dotted01-37" x1="332.87" y1="232.5" x2="17.57" y2="232.5"></line>
+        <polyline class="dotted01-38" points="10 293.5 9.5 293.5 10 293.5"></polyline>
+        <line class="dotted01-39" x1="25.13" y1="293.5" x2="340.43" y2="293.5"></line>
+        <polyline class="dotted01-38" points="348 293.5 348.5 293.5 348 293.5"></polyline>
+        <line class="dotted01-39" x1="332.87" y1="293.5" x2="17.57" y2="293.5"></line>
+        <polyline class="dotted01-40" points="10 53.5 9.5 53.5 10 53.5"></polyline>
+        <line class="dotted01-41" x1="25.13" y1="53.5" x2="340.43" y2="53.5"></line>
+        <polyline class="dotted01-40" points="348 53.5 348.5 53.5 348 53.5"></polyline>
+        <line class="dotted01-41" x1="332.87" y1="53.5" x2="17.57" y2="53.5"></line>
+    </g>
+</svg>

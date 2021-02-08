@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1001 189.75" class="footer-top-shape">
+  <defs>
+    <style>
+            .svg-uparrow {
+                fill: #fff;opacity:0.8
+            }
+            .svg-uparrow-link:hover .svg-uparrow {
+                opacity:1
+            }
+    </style>
+    <linearGradient id="footer-top-shape" y1="66.87" x2="478" y2="66.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#db1253"></stop>
+      <stop offset="1" stop-color="#f02b34"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M529.46,59.08l4.61,50.79L58,153.08,52.21,89.27c25.68-32.39,68.52-75,127.16-81.49,29.56-3.24,52.32,3.91,62.89,7.08C293.15,30.1,378.33,47.91,529.46,59.08Z" transform="translate(0 0)" style="fill: #f02b34;opacity: 0.1;isolation: isolate"></path>
+  <a xlink:href="#main" class="gotop">
+    <path d="M478,82.75v51H0V69.68C28.5,39.75,75,1.13,134,0c29.74-.56,51.76,8.62,62,12.73C245.28,32.52,328.5,58,478,82.75Z" transform="translate(0 0)" style="fill: url(#footer-top-shape)"></path>
+  </a>
+  <path d="M1001,44.75c-60.13-38.91-193.92-26.39-224-22C658.74,40,377.1,76.45,0,130.75v59H1001" transform="translate(0 0)" style="fill: #222"></path>
+  <a xlink:href="#main" class="svg-uparrow-link gotop">
+    <path d="M126,49a13,13,0,1,0,13,13A13,13,0,0,0,126,49Zm0,2a11,11,0,1,1-11,11A11,11,0,0,1,126,51Zm0,4-4,4h3V69h2V59h3Z" transform="translate(0 0)" class="svg-uparrow"></path>
+  </a>
+</svg>

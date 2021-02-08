@@ -1,0 +1,10 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style="height: 48px; color: rgb(204, 204, 204);">
+    <g data-name="Layer 651">
+        <path fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M57,22.55V18a2,2,0,0,0-2-2H32a2,2,0,0,1-2-2h0a2,2,0,0,0-2-2H8a2,2,0,0,0-2,2V52a2,2,0,0,0,2,2"></path>
+        <path fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M61,23H14a2,2,0,0,0-2,2L6,52a2,2,0,0,0,2,2H55a2,2,0,0,0,2-2l6-27A2,2,0,0,0,61,23Z"></path>
+        <path fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M31.86,43A7,7,0,0,1,37,41.07,7,7,0,0,1,42.1,43"></path>
+        <circle cx="45" cy="34" r="2" fill="#ccc"></circle>
+        <circle cx="30" cy="34" r="2" fill="#ccc"></circle>
+    </g>
+</svg>

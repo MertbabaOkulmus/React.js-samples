@@ -1,0 +1,4 @@
+  <svg viewBox="0 0 278 28" className="section-curve-bottom-svg">
+        <path d="M1046.5,513.44V522h-278v-8.28a503.18,503.18,0,0,1,278-.28Z" transform="translate(-768.5 -494)" style="fill: #fff;opacity: 0.29"/>
+        <path d="M1046.5,516.44V522h-278v-5.28a503.18,503.18,0,0,1,278-.28Z" transform="translate(-768.5 -494)" style="fill: #fff"/>
+    </svg>

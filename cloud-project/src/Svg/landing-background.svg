@@ -1,0 +1,34 @@
+                <svg className="hiro-shape-back" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1859.58 857.5" preserveAspectRatio="xMidYMin slice">
+                    <defs>
+                      <linearGradient id="hiro-shape-grad01" x1="1348" y1="351.86" x2="1648.85" y2="351.86" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#fff" stop-opacity="0.3"/>
+                        <stop offset="0.63" stop-color="#fff" stop-opacity="0.1"/>
+                        <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+                      </linearGradient>
+                      <linearGradient id="hiro-shape-grad02" x1="59.92" y1="705.33" x2="653.5" y2="705.33" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+                        <stop offset="1" stop-color="#fff" stop-opacity="0.3"/>
+                      </linearGradient>
+                    </defs>
+                    <path d="M1487.43,229.3c-11.4,2.6-130.47,29.85-139,111.24-7,67.16,64.82,138.29,138.8,141.07,95.49,3.59,150.88-90.16,160.84-144.87,1.33-7.27,4-51.17-24-83.12C1583.57,207.3,1510.49,224,1487.43,229.3Z" transform="translate(-59.92 -222)" style="fill: url(#hiro-shape-grad01)"/>
+                    <path d="M199.5,513.5c28.94-32.16,147.11-163.52,276-131,121.56,30.67,190.91,191.54,176,312-30.46,246.11-422.85,406.08-542,311C14.15,929.41,62.9,665.34,199.5,513.5Z" transform="translate(-59.92 -222)" style="fill: url(#hiro-shape-grad02)"/>
+                    <path d="M1919.5,475.5c-111.09,5.82-177.33-23.67-229-47-66.37-30-88.24-47.94-162-78-66.21-27-149.12-60.78-228-31-104.77,39.55-140,167.68-158,233-21.3,77.4-43.71,158.84-2,221,51.78,77.17,158.13,58.65,198,150,14.78,33.87,6.26,50.37,28,78,16.13,20.5,41.37,37.51,139,55s179.7,19.7,265,22c38.13,1,74.34,1,78,1,27.36,0,51.35-.47,71-1" transform="translate(-59.92 -222)" style="fill: #fff;opacity: 0.3"/>
+                    <g style="opacity: 0.5">
+                      <line x1="1465.65" y1="174.19" x2="1381.28" y2="199" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="1491.31" y1="190.1" x2="1368.81" y2="226.12" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="1505.35" y1="207.08" x2="1366.65" y2="247.87" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="1517.85" y1="247.18" x2="1378.79" y2="288.08" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="1514.38" y1="227.1" x2="1370.72" y2="269.35" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="1515.52" y1="270.54" x2="1393.88" y2="306.32" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="1503.97" y1="295.83" x2="1417.74" y2="321.19" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                    </g>
+                    <g style="opacity: 0.5">
+                      <line x1="607.45" y1="498.14" x2="520.1" y2="488" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="624.85" y1="522.81" x2="498.02" y2="508.09" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="631.14" y1="543.93" x2="487.53" y2="527.26" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="626.97" y1="585.73" x2="482.98" y2="569.01" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="631.62" y1="565.88" x2="482.88" y2="548.61" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="615.69" y1="606.32" x2="489.75" y2="591.7" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                      <line x1="595.18" y1="625.08" x2="505.9" y2="614.71" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+                    </g>
+                </svg>

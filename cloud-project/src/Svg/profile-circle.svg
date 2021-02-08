@@ -1,0 +1,12 @@
+<svg height="130" width="130" style="position: absolute;">
+    <defs>
+        <radialGradient id="radial-gradient"
+           fx="50%" fy="50%" r="100%"
+           spreadMethod="pad">
+          <stop offset="0%"   stop-color="transparent" stop-opacity="1"/>
+          <stop offset="100%" stop-color="red" stop-opacity="1" />
+        </radialGradient>
+    </defs>
+    <circle stroke="red" fill="transparent" stroke-width="6" stroke-dasharray="0 0" r="53" cx="65" cy="65"></circle>
+    <circle stroke="url(#radial-gradient)" fill="transparent" stroke-width="6" stroke-dasharray="333.0088212805181 333.0088212805181" r="53" cx="65" cy="65" style="stroke-dashoffset: 33.204; z-index: 0;"></circle>
+</svg>
