@@ -4,7 +4,7 @@ import Dropbox from "./cloud/Dropbox";
 import Googledrive from "./cloud/Googledrive";
 import Onedrive from "./cloud/Onedrive";
 import styled from 'styled-components';
-//import Undraw_cloud from "./icons/undraw_cloud_files_wmo8.svg";
+//i mport Undraw_cloud from "./icons/undraw_cloud_files_wmo8.svg";
 
 const Btn = styled.div`
 	display: flex;
