@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {Grid} from "semantic-ui-react";
+import SidePanel from './components/SidePanel/SidePanel';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App =()=> {
+  
+    return (
+      <Grid>
+        <Grid.Column width="3" style={{background:"#000", height:"110vh"}}>
+          {/* Sidebar */}
+          <SidePanel></SidePanel>
+        </Grid.Column>
+
+        <Grid.Column width="13" style={{background:"#efd", height:"110vh"}}>
+          {/* Chat Panel */}
+
+        </Grid.Column>
+      </Grid>
+    )
+  
 }
 
-export default App;
+export default App

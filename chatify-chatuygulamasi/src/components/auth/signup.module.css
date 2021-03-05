@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+.container {
+  background: url('../../images/bg-signup.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.form {
+}
+
+.formHeader {
+  font-family: 'Chewy', cursive;
+  font-size: 52px;
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.formHeader span {
+  -webkit-text-fill-color: #fff;
+}
