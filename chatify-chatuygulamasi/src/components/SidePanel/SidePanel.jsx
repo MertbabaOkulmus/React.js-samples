@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import { Popup, Menu, Icon, MenuItem, MenuHeader } from "semantic-ui-react";
 import CreateChannelForm from "../Channels/CreateChannelForm";
+import ChannelList from "../Channels/ChannelList";
+import UserPanel from "../UserPanel/UserPanel";
 //Menu nün ilk hali yatay yani horizantal, dikey yapmak için vertical yazıyoruz
 const SidePanel = () => {
     const [open,setOpen]=useState(false);
@@ -25,6 +27,7 @@ const SidePanel = () => {
         >
             <MenuItem>
                 {/* User Panel : o an login olan kullancının adı üst tarafta yazıcak*/}
+                <UserPanel/>
             </MenuItem> 
 
             <MenuItem>
@@ -38,9 +41,7 @@ const SidePanel = () => {
                         </span>
                 </MenuHeader>
                 {/* Channels: kanalların listelendiği alan  */}
-                {[... new Array(10)].map((porp,index)=>(
-                    <MenuItem key={index} name="A" as="a" icon="hashtag"> </MenuItem>
-                ))}
+                <ChannelList/>
                 
                 
             </MenuItem>

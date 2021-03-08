@@ -1,71 +1,74 @@
-import React,{useEffect} from 'react'
-import { Modal, Form, Button, ModalContent, FormInput } from "semantic-ui-react";
+import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { Modal, Form, Button } from "semantic-ui-react";
 import { useForm } from "react-hook-form";
 import { useFirebase } from "react-redux-firebase";
-import { useSelector } from "react-redux";
 
-const CreateChannelForm = (props) => {
-    const firebase = useFirebase();
-    const  profile=useSelector(//ana state imiz den bir sellect döndürüyor, redux da bilgi çekme yöntemi
-          (state)=>state.firebase.profile // profil bilgisinin kesin olarak yüklendğinden eminiz çünki profil bilgisi yok ise zaten sayfa açılmıyor render olmuyor
-    );
-    const {register, errors, handleSubmit, setValue}=useForm();
+const CreateChannelForm = ({ open, onClose, onOpen }) => {
+  const firebase = useFirebase();
+  const profile = useSelector((state) => state.firebase.profile);
+  const { register, errors, handleSubmit, setValue } = useForm();
 
-    useEffect(()=>{
-        register({name:"name"}, {required:true});
-        register({name:"description"},{required:true, minLength:10});
-    },[]);
+  useEffect(() => {
+    register({ name: "name" }, { required: true });
+    register({ name: "description" }, { required: true, minLength: 20 });
+  }, []);
 
-    const onSubmit=({name, description})=>{
-        firebase.push("channels",{
-            name,
-            description,
-            createBy:{
-                name:profile.name,
-                avatar:profile.avatar
-            },
-        });
+  const onSubmit = ({ name, description }) => {
+    firebase.push("channels", {
+      name,
+      description,
+      createdBy: {
+        name: profile.name,
+        avatar: profile.avatar,
+      },
+    });
 
-       props.onClose();//formu kapatmak için
-    }
+    onClose();
+  };
+  return (
+    <Modal onClose={onClose} onOpen={onOpen} open={open}>
+      <Modal.Header>Yeni Kanal Oluştur</Modal.Header>
+      <Modal.Content>
+        <Form onSubmit={handleSubmit(onSubmit)}>
+          <Form.Input
+            fluid
+            icon="mail"
+            iconPosition="left"
+            name="name"
+            onChange={(e, { name, value }) => {
+              setValue(name, value);
+            }}
+            error={errors.name ? true : false}
+            placeholder="#General"
+          />
+          <Form.Input
+            fluid
+            icon="lock"
+            iconPosition="left"
+            name="description"
+            onChange={(e, { name, value }) => {
+              setValue(name, value);
+            }}
+            error={errors.description ? true : false}
+            placeholder="#Genel her türlü konunun konuşulabileceği bir kanaldır"
+          />
+        </Form>
+      </Modal.Content>
+      <Modal.Actions>
+        <Button color="black" onClick={() => onClose()}>
+          Vazgeç
+        </Button>
+        <Button
+          content="Oluştur"
+          labelPosition="right"
+          icon="checkmark"
+          positive
+          onClick={() => handleSubmit(onSubmit)()}
+        />
+      </Modal.Actions>
+    </Modal>
+  );
+};
 
-    return (
-        <Modal open={props.open} onOpen={props.onOpen} onClose={props.onClose}>
-            <Modal.Header>Yeni Kanal Oluştur</Modal.Header>
-            <ModalContent>
-                <Form onSubmit={handleSubmit(onSubmit)}>
-                    <FormInput
-                        fluid
-                        icon="hashtag"
-                        iconPosition="left"
-                        name="name"
-                        placeholder="#Genel"
-                        onChange={(e,{name,value})=>{
-                            setValue(name,value);
-                        }}
-                        error={errors.name ? true:false}
-                    />
-                    <FormInput
-                        fluid
-                        icon="hashtag"
-                        iconPosition="left"
-                        name="description"
-                        placeholder="#Genel her türlü konunun konuşulabileceği bir kanaldır"
-                        onChange={(e,{name,value})=>{
-                            setValue(name,value);
-                        }}
-                        error={errors.description ? true:false}
-                    />
-
-                </Form>
-            </ModalContent>
-            <Modal.Actions>
-                    <Button color="black" onClick={()=>props.onClose()}> Vazgeç </Button>
-                    <Button  icon="checkmark" positive onClick={()=>handleSubmit(onSubmit)}> Oluştur </Button>
-
-            </Modal.Actions>
-        </Modal>
-    )
-}
-
-export default CreateChannelForm
+export default CreateChannelForm;
