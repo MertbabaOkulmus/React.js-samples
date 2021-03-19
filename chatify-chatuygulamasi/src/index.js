@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./index.css"
 import ReactDOM from "react-dom";
 //import { useHistory } from "react-router-dom";
 import "semantic-ui-css/semantic.min.css";

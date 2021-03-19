@@ -1,0 +1,4 @@
+input[type="file"]{/* inputların type ı sadecd file olanlarda etki et  */
+
+        display: none; 
+}
