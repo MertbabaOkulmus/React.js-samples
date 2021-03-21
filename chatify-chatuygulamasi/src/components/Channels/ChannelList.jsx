@@ -1,16 +1,17 @@
 import React,{useState,useEffect} from 'react'
 import { useFirebaseConnect, isLoaded, isEmpty } from "react-redux-firebase";
 import { useSelector, useDispatch } from "react-redux";
-import { Menu, MenuItem, MenuMenu } from "semantic-ui-react";
+import { Menu} from "semantic-ui-react";
 import Fallback from '../Fallback';
 import { setCurrentChannel } from "../../store/actions/channel";
 
-const ChannelList = () => {
-    useFirebaseConnect([{ path: "channels" }])//path e dinleyeceğimiz alanı belirtiyoruz
-    const dispatch =useDispatch();
-    const channels = useSelector(state => state.firebase.ordered.channels); //channels ları redux tan aldık
-    const currentChannel=useSelector((state)=>state.channels.currentChannel);
-    const [mounted, setMounted]=useState(false);//ilk render ın yapılıp yapılmadığı kontrolü
+const ChannelList = () => { 
+    const dispatch = useDispatch();
+    useFirebaseConnect([{ path: "channels" }]);//path e dinleyeceğimiz alanı belirtiyoruz
+   
+    const channels = useSelector((state) => state.firebase.ordered.channels); //channels ları redux tan aldık
+    const currentChannel = useSelector((state) => state.channels.currentChannel);
+    const [mounted, setMounted] = useState(false);//ilk render ın yapılıp yapılmadığı kontrolü
 
     useEffect(()=>{//sürekli çalışıyor yaşam döngüsü boyunca
             if(!mounted && !isEmpty(channels)){// ilk render da ve chanallar  boş değilse
@@ -20,8 +21,8 @@ const ChannelList = () => {
                 //sayfa ilk yüklendiğinde hermzaman ilk kanal seçili olarak gelemsi için ayarlandı 
             }
             
-    })
-    const setActiveChannel = channel =>{
+    }, [isLoaded(channels)])
+    const setActiveChannel = (channel) =>{
             // setCurrentChannel(channel);// malesef böyle çalışmaz
             dispatch(setCurrentChannel(channel));
     }
@@ -36,20 +37,33 @@ const ChannelList = () => {
 
     return (
 
-        <MenuMenu>
-            {
-                channels.map(({ key, value }) => {
-                    <MenuItem key={key}
-                        name={value?.name}//value nin name ini alır, ? nin görevi eğer value tanımlıysa demek oluyor
-                        as="a"
-                        icon="hashtag"
-                        active={currentChannel?.key===key}//curentcahnnel null değilse key bilsini al 
-                        onClick={()=>setActiveChannel({key,...value})}
-                    />
-                })
-            }
-        </MenuMenu>
-    )
-}
+        // <Menu.Menu>
+        //     {
+        //         channels.map(({ key, value }) => {
+        //             <Menu.Item key={key}
+        //                 name={value?.name}//value nin name ini alır, ? nin görevi eğer value tanımlıysa demek oluyor
+        //                 as="a"
+        //                 icon="hashtag"
+        //                 active={currentChannel?.key===key}//curentcahnnel null değilse key bilsini al 
+        //                 onClick={()=>setActiveChannel({key,...value})}
+        //             />
+        //         })
+        //     }
+        // </Menu.Menu>
+
+        <Menu.Menu>
+        {channels.map(({ key, value }) => (
+          <Menu.Item
+            key={key}
+            name={value?.name}
+            as="a"
+            icon="hashtag"
+            active={currentChannel?.key === key}
+            onClick={() => setActiveChannel({ key, ...value })}
+          />
+        ))}
+      </Menu.Menu>
+    );
+};
 
 export default ChannelList;

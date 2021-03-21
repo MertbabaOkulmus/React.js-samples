@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import { Popup, Menu, Icon, MenuItem, MenuHeader } from "semantic-ui-react";
+//import { TwitterPicker } from "react-color";
 import CreateChannelForm from "../Channels/CreateChannelForm";
 import ChannelList from "../Channels/ChannelList";
 import UserPanel from "../UserPanel/UserPanel";
@@ -18,11 +19,12 @@ const SidePanel = () => {
             vertical
             inverted
             secondary
-            color="brown"
-            fixed="left"//sola yapıştır
+            fixed="left"
             style={{
-                width: "346px",
-                fontSize: "1.3rem",
+              width: "346px",
+              fontSize: "1.2rem",
+              background:"" ,
+              height: "100vh",
             }}
         >
             <MenuItem>
@@ -30,8 +32,8 @@ const SidePanel = () => {
                 <UserPanel/>
             </MenuItem> 
 
-            <MenuItem>
-                <MenuHeader>
+            <Menu.Item>
+                <Menu.Header>
                         Kanallar
                         <span style={{float:"right"}}>
                             <Popup 
@@ -39,16 +41,20 @@ const SidePanel = () => {
                             trigger={<Icon name="add" onClick={event=>handleOpen()}/>}>                               
                             </Popup>
                         </span>
-                </MenuHeader>
+                </Menu.Header>
                 {/* Channels: kanalların listelendiği alan  */}
                 <ChannelList/>
                 
                 
-            </MenuItem>
+            </Menu.Item>
         </Menu>
 
         {/* Create channel form */}
-        <CreateChannelForm open={open} onOpen={handleOpen} onClose={handleClose}/>
+        <CreateChannelForm
+          open={open}
+          onClose={handleClose}
+          onOpen={handleOpen}
+        />
         </>
     )
 }
