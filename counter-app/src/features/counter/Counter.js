@@ -24,7 +24,10 @@ const Counter = () => {
       onChange={e=>setAmount(e.target.value)}
       />
    
-      <button className={styles.button}>
+      <button 
+        className={styles.button}
+        onClick={()=>dispatch(incrementAmount(Number(amount)))}//kullanıcı virgullu sayı girerse tam sayıya çevirmek için number a dönüştürüldü sayı
+        >
             Add Amount
       </button>
       <button className={styles.button}>
